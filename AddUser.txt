@@ -34,3 +34,6 @@ AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
 
 "invalid input - user already exists
 AddUser "dsmith","password","Peter", "SMith","ABC","123-456-0789","jsmith@sample.com"
+
+"invalid input -invalid email
+AddUser "jsmith","password","john","smith","ABC","123-456-1234","abcsr"
